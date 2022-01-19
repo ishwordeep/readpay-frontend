@@ -1,0 +1,59 @@
+.ContainerBooklist{
+    /* background-color: red; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bookcover{
+    max-width: 100%; /* or any custom size */
+    max-height: 200px;
+    margin-top: 5%;
+    object-fit: contain;
+    position: relative;
+}
+.test{
+    display: none;
+    /* bottom:10px; */
+    /* bottom:140px; */
+}
+
+.bookcover:hover +.test{
+    display:inline-block;
+    /* transform: translate(0,-100px); */
+    transition: all 0.3s;
+}
+.bookcover:hover{
+    transform: scale(1.1, 1);
+    transition: all 0.3s;
+
+}
+.test:hover{
+    display:inline-block;
+    cursor: pointer;
+    /* color: white; */
+}
+
+.test ul{
+    position: absolute;
+	list-style: none;
+    bottom:145px;
+    left: 50px;
+}
+.test ul li:hover{
+    color: white; 
+}
+.test ul li{
+    display: inline;
+}
+
+.containerIcon{
+    display: inline-block;
+    background-color: red;
+    /* height: 80px;
+    width: 80px; */
+    /* text-align: center; */
+    font-size: 1rem;
+    padding:15px;
+    border-radius:12px;
+    
+}
