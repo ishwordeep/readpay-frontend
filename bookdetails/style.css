@@ -1,0 +1,40 @@
+.containerImg{
+    max-width: 90%;
+    height: auto;
+}
+.bookimg{
+    border-radius: 19px;
+}
+.booktitle{
+    height: 65%;
+    /* background: red; */
+}
+.genre{
+    height: 10%;
+    /* background-color: aqua; */
+}
+.actionbtn{
+    height: 15%;
+    /* background-color: pink; */
+}
+
+.address{
+    font-size: 0.8rem;
+}
+
+.homedel{
+    font-size: 1rem;
+}
+
+.deliveryDetail{
+    height: 60%;
+}
+
+.iconOndetail{
+    cursor: pointer;
+    
+}
+.iconOndetail:hover{
+    color: white;
+    
+}
