@@ -1,0 +1,36 @@
+body{
+    background-color: 	#909090;
+}
+
+.billContent, .shippingDetail{
+    background-color: beige;
+}
+.shippingDetail{
+    margin-left: 0.5rem;
+}
+.billContent{
+    height: 230px;
+    border-radius: 12px;
+}
+ .billContent img{
+     height: 100%;
+ }
+
+.billContentWithBorder{
+    border:2px solid #0094b6;
+}
+.address{
+    font-size: 0.8rem;
+}
+
+.billBookName{
+    height: 40%;
+}
+.billPrice{
+height: 30%;
+}
+
+.billAction{
+height:30%;
+}
+
